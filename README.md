@@ -1,5 +1,5 @@
 # Power-BI-Sporting-Event-Venues-Analysis
-This project explores sporting event data and venue performance using Excel, Power BI, and R integration. It demonstrates advanced skills in data modeling, DAX, Power Query transformations, and R visualization, highlighting the relationship between venue utilization, energy costs, and CO₂ emissions.
+This project explores sporting event data and venue performance using Excel, Power BI, and R integration. It demonstrates a complete end-to-end workflow from data modeling in Excel to advanced DAX calculations and interactive Power BI dashboards, highlighting insights into venue utilization, energy efficiency, and CO₂ emissions.
 
 # Project Overview
 
@@ -9,7 +9,13 @@ Event Data: Sporting events, their venues, attendance, temperature, and energy u
 
 Venue Data: Detailed information about each sporting venue (capacity, region, and age).
 
-The goal of this project was to model the data, perform calculated column operations, and visualize utilization and emissions insights through a multi-page Power BI report.
+The analysis focuses on:
+
+Understanding venue utilization and operational efficiency.
+
+Analyzing energy consumption and CO₂ emissions across venues.
+
+Developing interactive dashboards and DAX-based performance measures to evaluate patterns and correlations.
 
 # Data Modeling Process
 
@@ -58,16 +64,24 @@ Slicer: Filter by Venue Region.
 
 R Visual: Correlation Heatmap of event and venue variables.
 
+# Measures Report
+
+Introduces advanced DAX measures for deeper analytical insights.
+
+Measure Table: MyMeasures
+
+All new measures were created and organized in a dedicated table: Attendance Per Event, CO2 per Dollar,Heater On Natural Gas Expense and Heater Off Electric Expense.
+
 # Skills Demonstrated
 
-Data modeling in Excel Power Pivot
+Data modeling and relationship creation in Excel Power Pivot
 
-Integration between Excel and Power BI
+Power Query transformations and calculated column creation
 
-Data cleaning and transformation using Power Query
+Advanced DAX measures using DIVIDE, AVERAGEX, and CALCULATE
 
-Calculated columns using DAX and RELATED()
+Integration of R visuals within Power BI
 
-R scripting inside Power BI for advanced analytics
+Dashboard design and interactive navigation setup
 
-Report design and visualization best practices
+Business-oriented analysis of utilization, cost efficiency, and CO₂ impact
